@@ -1,9 +1,3 @@
-# F2P
-Default (GPT-3.5)
-User
-here are the description of README file for my reprository in github, please edit this: Script for analysing data from calcium imaging (+stimulation)
-This repository consist of two files that analyze the data yoy got from ImageJ. The design of experiment is to evaluate the effect of stimulationgg(eg. Optogenetic) on the activity of selected region.
-
 ## F2P
 The F2P script is designed to analyze data obtained from ImageJ. It requires a specific file directory containing three distinctive files:
 
