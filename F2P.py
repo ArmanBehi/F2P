@@ -26,10 +26,9 @@ Data = Data_table.to_numpy()
 # Acquiring time frame and E-phys
 Time_frame = online_analysis[1, 1] - online_analysis[0, 1]
 E_phys = user_input[:len(Data[:, 0]), 1]
-Data = np.column_stack((E_phys, Data))
+Data = np.column_stack((E_phys, Data)) #Concatanating two columns with each other
 
-# Detecting where the E-Phys is above the threshold and eliminate the
-# values at that points from the Data
+# Detecting where the E-Phys is above the threshold and eliminating the values at that point from the Data
 threshold = 1
 idx = np.where(Data[:, 0] > threshold)[0]
 Data = np.delete(Data, idx, axis=0)
